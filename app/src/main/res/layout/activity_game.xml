@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity"
+    android:background="@drawable/background"
+    >
+    <!--name of game-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <!--number of attempts. changeable.-->
+    <TextView
+        android:id="@+id/tvattempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+
+        />
+    <!--number of attempts text-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts left:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-32dp"
+        android:layout_marginRight="50dp"
+
+        />
+    <!--buttons-->
+    <Button
+        android:id="@+id/btnfirstnum"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text=""
+        android:backgroundTint="#F7F14A"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnsecondnum"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text=""
+        android:backgroundTint="#F7F14A"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+
+        />
+    <!--   result -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+<!--    correct label-->
+    <TextView
+        android:id="@+id/tvcorrect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Correct:"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+
+        />
+<!--correct count-->
+    <TextView
+        android:id="@+id/tvcorrectcount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-50dp"
+
+        />
+<!--incorrect label-->
+    <TextView
+        android:id="@+id/tvincorrect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Inorrect:"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+
+        />
+<!--incorrect count-->
+
+    <TextView
+        android:id="@+id/tvincorrectcount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-50dp"
+        />
+    <TextView
+        android:id="@+id/tvdraw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Draw"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvdrawcount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="-50dp"
+
+        />
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="PLAY AGAIN"
+        android:backgroundTint="#F7F14A"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="20dp"
+
+        />
+
+
+</LinearLayout>
